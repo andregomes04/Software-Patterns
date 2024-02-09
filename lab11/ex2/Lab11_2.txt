@@ -1,0 +1,10 @@
+Na classe java.io.InputStream, o padrão de software "Template Method" ocorre no método read(). 
+O método read() é declarado como abstrato, indicando que não possui uma implementação na própria classe InputStream. 
+Em vez disso, as subclasses de InputStream, como FileInputStream ou ByteArrayInputStream, fornecem suas próprias implementações do método read().
+
+A classe Java.io.OutputStream fornece um conjunto básico de métodos para escrita de dados, como  public abstract void write(int b), que é chamado por write(byte[] b, int off, int len). 
+Este método (write(int b)) tem que ser implementado pela subclasse OutputStream;
+
+Na classe Java.io.Reader, o padrão Template Method pode ser observado nos seguintes métodos: 
+read(char[] cbuf, int off, int len), que é um método de template que lê caracteres em um array. Este fornece o algoritmo geral para a leitura de caracteres,
+mas delega a leitura real de dados para o método read(), que é um método abstrato que é implementado pelas subclasses.

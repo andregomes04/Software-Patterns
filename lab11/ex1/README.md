@@ -1,0 +1,1 @@
+a) O padrão que parece ser mais indicado para este caso seria o padrão 'Strategy', que tem como objetivo definir uma família de algoritmos, encapsulando cada um, e tornando-os permutáveis;
